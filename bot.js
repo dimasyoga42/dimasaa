@@ -16,7 +16,7 @@ async function startBot() {
   const { state, saveCreds } = await useMultiFileAuthState("./auth_info");
   const { version } = await fetchLatestBaileysVersion();
   const groq = new Groq({
-    apiKey: "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",
+    apiKey: "your apikey",
   });
   const sock = makeWASocket({
     version,
